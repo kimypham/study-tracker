@@ -1,0 +1,152 @@
+/* Study Tracker's Styling, version 1.2, Kim Pham */
+/* Styling for everything else besides the login/register pages, main and timer pages */
+
+body{
+	color: #65809d;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.scrollbar{
+	overflow-y: scroll;
+}
+
+.title_medium {
+	font-size: 1.1em;
+}
+
+.subtitle{
+	font-size:0.8em;
+	line-height:1.5;
+}
+
+.subsubtitle{
+	font-size:1.3em;
+}
+
+.left{
+	float:left;
+	width: 55%;
+	border: px red solid;
+}
+.right{
+	float:right;
+	width: 48%;
+	border:px blue solid;
+}
+
+.button_container{
+	width: 100%;
+	position:fixed;
+	bottom:2em;
+}
+
+.btn{
+	font-size:0.9em;
+	text-align:center;
+	text-decoration: none;
+	padding:0.5em 1em;
+	color: white;
+	background-color:#729dcb;
+}
+
+.btn_right{
+	float: right;
+	margin-right: 10em;
+}
+
+.settings_link{
+	color: #65809d;
+	margin-right:10em;
+}
+
+.delete_link{
+	color: red;
+	font-size: 1em;
+}
+
+.report_link{
+	background-color: #65809d;
+	color: white;
+}
+
+.pretend_link{
+	background-color: white;
+    text-decoration: underline;
+    border: none;
+}
+
+.no_link{
+	text-decoration: none;
+	color: white;
+}
+
+.inputbox{
+	width: 8em;
+}
+/*
+input {
+	margin:0em 1em;
+	transform: scale(1.3);
+}*/
+
+.select_dropdown_settings{
+	width: 15%;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	line-height: 0px;
+	border: px red solid;
+}
+
+.subject_list_settings{
+	width: 75%;
+	max-height: 45%;
+	overflow: auto;
+	overflow-x: hidden;
+	border: 0px blue solid;
+}
+
+.task_settings{
+	width: 100%;
+	height: 7%;
+	color: #647383;
+	display: block;
+	padding-left:1em;
+	text-align: left;
+	font-size: 1em;
+	transition: 0.3s;
+	text-decoration:none;
+}
+
+.taskbox_settings{
+	display: inline-block;
+	font-size: 0.8em;
+	margin-bottom: 1%;
+	text-decoration:none;
+	border: 0px blue solid;
+}
+
+.delete_settings{
+	height:8.5%;
+	width: 5%;
+	color: #647383;
+	padding: 0.5em 2em 0.5em 0.5em;
+	transition: 0.3s;
+	opacity:0.5;
+	display:inline-block;
+	border:0px orange solid;
+}
+
+.delete_settings:hover{
+    opacity:1;
+}
+
+.task_input{
+	width: 100%;
+	height: 8%;
+	margin-top:1em;
+	border: px green solid;
+}
